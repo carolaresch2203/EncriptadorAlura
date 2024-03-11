@@ -9,6 +9,15 @@
     height: 100vh;
     background: #f3f5fc;
   }
+
+  .logo{
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 5%;
+   
+   
+  }
   
   .texto {
     position: absolute;
@@ -214,7 +223,7 @@
       top: 80%;
     }
     .mensaje-encriptado {
-      width: 100%;
+      width: 50%;
       top: 5%;
     }
     .encriptado img {
@@ -222,4 +231,41 @@
       display: none;
       visibility: hidden;
     }
+
+    .logo{
+        width: auto;
+        height: auto;
+        margin-left: 85%;
+        position: absolute;
+    }
+
+    .footer{
+        display: none;
+    }
+  }
+
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    clear: both;
+    display: fixed;
+    margin-top: auto;
+  }
+
+  .divContainer{
+    display: flex;
+    text-align: center;
+  }
+
+  .div-1{
+    width: 60%;
+    text-align: right;
+  }
+
+  .div-2{
+   
+   width: 40%;  
+    text-align: left;
   }
